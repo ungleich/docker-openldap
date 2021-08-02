@@ -8,6 +8,7 @@ olcModuleLoad: syncprov
 dn: cn=config
 changeType: modify
 add: olcServerID
+{{ LDAP_REPLICATION_SERVERID }}
 {{ LDAP_REPLICATION_HOSTS }}
 
 # Add syncprov on config
